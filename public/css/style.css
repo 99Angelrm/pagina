@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+nav {
+  top: 50px;
+  font-family: "Bebas Neue", cursive;
+  position: fixed;
+  z-index: 9999;
+}
+
+a {
+  font-size: x-large;
+}
+
+a:hover {
+  color: blue !important;
+}
+
+.s1 {
+  background-color: aqua;
+}
+
+.top-link {
+  position: fixed;
+  z-index: 9999;
+  background-color: blue;
+}
+/*# sourceMappingURL=style.css.map */
