@@ -37,22 +37,6 @@ a:hover {
   top: -50px;
 }
 
-.parallelogram {
-  position: relative;
-  overflow: hidden;
-}
-
-.parallelogram:after {
-  content: "";
-  position: absolute;
-  width: 200%;
-  height: 100%;
-  z-index: -1;
-  -webkit-transform: skew(-70deg);
-          transform: skew(-70deg);
-  background: #41476f;
-}
-
 .text-white {
   color: white;
 }
@@ -61,8 +45,45 @@ i {
   color: tomato;
 }
 
+.other-i {
+  color: #fff;
+}
+
 .other-i > div > div > i {
   color: green;
   font-size: x-large;
+  padding-right: 5px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.background-shape {
+  background: #4b557a;
+  width: 100%;
+  height: 700px;
+  -webkit-transform: skewY(-10deg);
+  transform: skewY(-10deg);
+  border-radius: 30px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.content {
+  color: white;
+  position: absolute;
+  top: 120px;
+  z-index: 9999;
+}
+
+.boton {
+  background-color: orange;
+  font-size: x-large;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
